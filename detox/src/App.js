@@ -39,9 +39,7 @@ function App() {
           </div>
         </div>
 
-        <hr/>
-
-        <Navbar data-bs-theme="light">
+        <Navbar data-bs-theme="light" className='navigation'>
         <Container>
           <Nav className="me-auto navbar">
             <Nav.Link href="#menu">Меню ресторана</Nav.Link>

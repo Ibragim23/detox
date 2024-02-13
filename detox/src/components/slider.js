@@ -10,7 +10,8 @@ function slider() {
       <Carousel.Item>
         <img src={SlideOne} alt='slide' text="First slide" />
         <Carousel.Caption className='carouselCaption'>
-          <h3 className='carouselTittle'><span>Детокс-</span> программа</h3>
+          <h3 className='carouselTittle'><span>Детокс-</span><br/>
+          программа</h3>
           <p className='carouselText'>от комплексного очищения от <span>1099</span> руб.</p>
           <button className='btnCarousel'>Заказать</button> 
         </Carousel.Caption>

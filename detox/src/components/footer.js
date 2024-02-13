@@ -19,16 +19,14 @@ function footer() {
         <a href='1'>Публичная оферта</a>
         <a href='1'>Политика конфидиенциальности</a>
       </div>
-  
-  <hr/>
-    <div className='footer_underline'>
-      <span>© 2022</span>
-      <img src={footerInst} alt='inst'/>
-      <p>Мы используем cookies для быстрой и удобной работы сайта. Продолжая пользоваться сайтом, вы принимаете условия обработки персональных данных</p>
-    </div>
-    
-
       </div>   
+           <div className='footer_underline'>
+      <div className='icons_area'>
+        <span>© 2022</span>
+        <img src={footerInst} alt='inst'/>
+      </div>
+      <p>Мы используем cookies для быстрой и удобной работы сайта. Продолжая пользоваться сайтом, вы принимаете условия обработки персональных данных</p>
+            </div>
     </>
   )
 }
